@@ -1,0 +1,363 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navigation {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(238, 229, 235);
+}
+.navigation .logo {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  width: 5.5%;
+  height: 10%;
+  border-radius: 50%;
+  font: optional;
+}
+.navigation .logo img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-left: 15px;
+  cursor: pointer;
+}
+.navigation h2 {
+  color: rgb(24, 142, 215);
+}
+.navigation h2:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all 0.1s linear;
+}
+.navigation .h3 {
+  margin-left: 475px;
+  margin-right: 25px;
+  color: chocolate;
+  transition: all 0.1s linear;
+}
+.navigation .h3:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.navigation h3 {
+  border-bottom: 4px solid transparent;
+}
+.navigation h3:hover {
+  cursor: pointer;
+  transition: all 0.1s linear;
+  border-bottom-color: #FBE0DC;
+  transform: scale(1.1);
+}
+.navigation .h5 {
+  position: absolute;
+  right: 30px;
+  color: rgb(24, 142, 215);
+  background-color: rgb(233, 164, 115);
+  border-radius: 15px;
+  padding: 5px 15px;
+}
+.navigation .h5:hover {
+  background-color: rgb(234, 138, 78);
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.navigation .hh5 {
+  position: absolute;
+  right: 130px;
+  color: chocolate;
+  transition: all 0.1s linear;
+}
+.navigation .hh5:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.suc {
+  display: none;
+  margin-top: 20px;
+  color: green;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.err {
+  display: none;
+  color: red;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.succ {
+  display: none;
+  margin-top: 20px;
+  color: green;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.errr {
+  display: none;
+  color: red;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.dashelem {
+  margin-left: 50px;
+  margin-top: 50px;
+  display: flex;
+  gap: 20px;
+  color: mediumseagreen;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 100px;
+}
+
+.dashelemp:hover {
+  cursor: pointer;
+  border-bottom: 1px solid mediumaquamarine;
+}
+
+.books-table {
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  width: 500px;
+}
+
+.td {
+  padding-right: 10px;
+  padding-left: 10px;
+  font-weight: 700;
+}
+
+td {
+  padding-right: 30px;
+  padding-left: 10px;
+}
+
+.lasttd {
+  font-size: 30px;
+  color: yellowgreen;
+  padding-left: 70px;
+  padding-right: 70px;
+  cursor: pointer;
+}
+
+.lasttdd {
+  font-size: 30px;
+  color: yellowgreen;
+  padding-left: 70px;
+  padding-right: 70px;
+  cursor: pointer;
+}
+
+.icons {
+  width: 30px;
+  margin-left: 55px;
+  cursor: pointer;
+}
+
+.lasttdd {
+  padding-right: 20px;
+}
+
+.dashwrapper {
+  position: relative;
+}
+
+.publishdiv {
+  display: none;
+}
+
+.publish {
+  width: 700px;
+  height: 800px;
+  border: 1px solid red;
+  position: absolute;
+  top: 200px;
+  left: 650px;
+  background-color: whitesmoke;
+}
+
+.footerdash {
+  margin-top: 200px;
+}
+
+.close-btnn {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  /* background-color: red; */
+  position: absolute;
+  top: -15px;
+  right: 20px;
+  font-size: 50px;
+  text-align: center;
+  font-weight: 300;
+  cursor: pointer;
+  /* border: 1px solid red; */
+}
+
+.publishform {
+  margin-top: 100px;
+  margin-left: 150px;
+}
+
+.formpublish {
+  height: 40px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+  outline: none;
+}
+
+.genres {
+  padding-left: 20px;
+  padding-top: 10px;
+  width: 400px;
+  height: 180px;
+  border: 1px solid red;
+  color: red;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.formpubli {
+  height: 100px;
+  width: 400px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+  outline: none;
+}
+
+.radiodiv {
+  margin-bottom: 20px;
+}
+
+.hard {
+  margin-right: 10px;
+}
+
+.btnpublish {
+  cursor: pointer;
+  width: 190px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid red;
+}
+
+.spinner {
+  display: none;
+  width: 20%;
+  height: 20%;
+}
+
+.spinnerR {
+  display: none;
+  width: 45%;
+  margin-left: 500px;
+}
+
+.spinnerRR {
+  display: none;
+  width: 45%;
+  margin-left: 500px;
+  background-color: rgb(241, 215, 215);
+}
+
+/* .books-table{
+
+} */
+.users-table {
+  display: none;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 800px;
+}
+
+.books-tablee {
+  display: none;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 1201px;
+}
+
+.authors-tablee {
+  display: none;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+/* .authors-table-body{
+    width: 20%;
+} */
+.authormodal {
+  display: none;
+  width: 500px;
+  height: 300px;
+  border: 1px solid red;
+  position: absolute;
+  top: 600px;
+  left: 650px;
+  background-color: #e0c8c8;
+}
+
+.authormodaldiv {
+  position: relative;
+}
+
+.close-btn-author {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.formauthorpublish {
+  padding-top: 70px;
+  padding-left: 35px;
+}
+
+.inputauthor {
+  margin-bottom: 35px;
+  margin-right: 30px;
+  width: 180px;
+  height: 50px;
+  padding-left: 10px;
+  text-decoration: none;
+  outline: none;
+}
+
+.btnpublishauthor {
+  border: 1px solid green;
+  width: 180px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+.signupmodal {
+  display: none;
+}/*# sourceMappingURL=dashboard.css.map */

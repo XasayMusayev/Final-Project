@@ -1,0 +1,286 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navigation {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(238, 229, 235);
+}
+.navigation .logo {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  width: 5.5%;
+  height: 10%;
+  border-radius: 50%;
+  font: optional;
+}
+.navigation .logo img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-left: 15px;
+  cursor: pointer;
+}
+.navigation h2 {
+  color: rgb(24, 142, 215);
+}
+.navigation h2:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all 0.1s linear;
+}
+.navigation .h3 {
+  margin-left: 475px;
+  margin-right: 25px;
+  color: chocolate;
+  transition: all 0.1s linear;
+}
+.navigation .h3:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.navigation h3 {
+  border-bottom: 4px solid transparent;
+}
+.navigation h3:hover {
+  cursor: pointer;
+  transition: all 0.1s linear;
+  border-bottom-color: #FBE0DC;
+  transform: scale(1.1);
+}
+.navigation .h5 {
+  position: absolute;
+  right: 30px;
+  color: rgb(24, 142, 215);
+  background-color: rgb(233, 164, 115);
+  border-radius: 15px;
+  padding: 5px 15px;
+}
+.navigation .h5:hover {
+  background-color: rgb(234, 138, 78);
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.navigation .hh5 {
+  position: absolute;
+  right: 130px;
+  color: chocolate;
+  transition: all 0.1s linear;
+}
+.navigation .hh5:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+#mybook-all {
+  display: flex;
+  margin-top: 50px;
+  padding: 100px;
+  gap: 40px;
+}
+#mybook-all .adi {
+  color: chocolate;
+  text-align: center;
+}
+#mybook-all .authorpp {
+  width: 250px;
+  font: optional;
+}
+#mybook-all .authorpp img {
+  width: 100%;
+  border-radius: 50%;
+  font: optional;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-top: 30px;
+  margin-left: 80px;
+}
+#mybook-all p {
+  text-align: center;
+  color: rgb(151, 158, 158);
+  margin-top: 30px;
+}
+
+#mybook-book {
+  width: 1450px;
+  display: flex;
+  justify-content: space-around;
+  gap: 75px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+#mybook-book .card {
+  width: 210px;
+  display: block;
+  display: flex;
+}
+#mybook-book .image2 {
+  width: 150px;
+  height: 240px;
+}
+#mybook-book .info {
+  width: 50px;
+  font-size: 10px;
+  color: grey;
+}
+#mybook-book .bookinfo {
+  color: black;
+  font-weight: bold;
+  font-size: 10px;
+}
+#mybook-book .bookinfo h4 {
+  margin: 15px 0px 15px 25px;
+  font-size: 12px;
+  color: chocolate;
+}
+#mybook-book .bookinfo p {
+  margin-bottom: 10px;
+  margin-left: 35px;
+}
+
+.MyBook_main {
+  position: relative;
+}
+
+.loginmodal {
+  display: none;
+  background-color: rgb(230, 206, 189);
+  width: 400px;
+  height: 170px;
+  border-radius: 20px;
+  position: absolute;
+  top: 20%;
+  right: 40%;
+  left: 37%;
+}
+.loginmodal .close-btn2 {
+  position: absolute;
+  right: 13px;
+  font-size: 24px;
+  cursor: pointer;
+  color: rgb(122, 20, 20);
+}
+.loginmodal .formlogin {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.loginmodal .formlogin input {
+  height: 35px;
+  border-radius: 10px;
+  border-color: chocolate;
+}
+.loginmodal .loginbtn {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: block;
+  margin: 15px auto;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: rgb(245, 213, 219);
+  border-radius: 5px;
+  color: rgb(221, 122, 16);
+  padding: 4px 5px;
+}
+.loginmodal p {
+  margin-left: 45%;
+  color: rebeccapurple;
+  font-size: 18px;
+  display: none;
+}
+
+.signupmodal {
+  display: none;
+  background-color: rgb(230, 206, 189);
+  width: 400px;
+  height: 170px;
+  border-radius: 20px;
+  position: absolute;
+  top: 20%;
+  right: 40%;
+  left: 37%;
+}
+.signupmodal .close-btn {
+  position: absolute;
+  right: 13px;
+  font-size: 24px;
+  cursor: pointer;
+  color: rgb(122, 20, 20);
+}
+.signupmodal .formsignup {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.signupmodal .formsignup input {
+  height: 35px;
+  border-radius: 10px;
+  border-color: chocolate;
+  margin-bottom: 5px;
+}
+.signupmodal .signupbtn {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: block;
+  margin: 15px auto;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: rgb(245, 213, 219);
+  border-radius: 5px;
+  color: rgb(221, 122, 16);
+  padding: 4px 5px;
+}
+.signupmodal p {
+  margin-left: 45%;
+  color: rebeccapurple;
+  font-size: 18px;
+  display: none;
+}
+
+.loginmaill {
+  color: green;
+  position: absolute;
+  left: 220px;
+  background-color: rgb(214, 222, 230);
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.dasssh {
+  position: absolute;
+  right: 100px;
+  font-size: 12px;
+  font-weight: bold;
+  color: chocolate;
+}
+
+.dasssh:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.logout {
+  position: absolute;
+  right: 20px;
+  color: rgb(207, 92, 92);
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.MyBook_main {
+  background-color: #f0d2cc;
+}/*# sourceMappingURL=MyBook.css.map */

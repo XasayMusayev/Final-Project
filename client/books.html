@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js" integrity="sha512-odNmoc1XJy5x1TMVMdC7EMs3IVdItLPlCeL5vSUPN2llYKMJ2eByTTAIiiuqLg+GdNr9hF6z81p27DArRFKT7A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="books.js" defer></script>
+    <title>Books</title>
+</head>
+<body>    <div class="wrapper">
+        <div class="main-container">
+            <nav class="navigation">
+                <div class="logo"><img src="./assets/istockphoto-1349688040-612x612.jpg" alt="logo"></div>
+                <a href="MyBook.html"><h2>MyBook</h2></a>
+                <a href="http://127.0.0.1:5500/client/books.html"><h3 class="h3">Books</h3></a>
+                <a href="authors.html"><h3>Authors</h3></a>
+                <h5 class="hh5">Login</h5>
+                <h5 class="h5">Sign Up</h5>
+                <!-- <div><a class="dash" href="./dashboard.html">DashBoard</a></div> -->
+                <!-- <div>Log out</div> -->
+                
+                <!-- <p></p>
+                <div><a class="dash" href="./dashboard.html"><h2>DashBoard</h2></a></div>
+                <div>Log out</div> -->
+
+            </nav>
+
+            <!-- <div><a class="dash" href="./dashboard.html">DashBoard</a></div>
+            <div>Log out</div> -->
+
+            <div class="cardsall">
+                <div id="cards_all">
+                    <div class="card">
+                        <div class="image"><img class="image2" src="${item.imageUrl}" alt="bookphoto"></div>
+                        <h4></h4>
+                        <div class="bookinfo">
+                            <p class="info">Author</p>
+                            <p class="info">Type</p>
+                            <p class="info">Layout</p>
+                        </div>
+                            <div class="bookinfo2">
+                                <p></p>
+                                <p></p>
+                                <p></p>
+                            </div>
+                    </div>
+                </div>  
+    
+            </div>
+
+            <div class="signupmodal">
+                <div class="close-btn">x</div>
+                <div class="form">
+                    <form class="formsignup">
+                        <input class="signupinput" id="inputname" type="text" placeholder="  Type name">
+                        <input class="signupinput" id="inputsurname" type="text" placeholder="  Type surname">
+                        <input class="signupinput" id="inputmail" type="text" placeholder="  Enter mail">
+                        <input class="signupinput" id="inputpassword" type="password" placeholder="  Enter Password">
+                    </form>
+                    <div class="signupbtn">Sign Up</div>
+                    <p class="succ">Succes</p>
+                    <p class="errr">Error</p>
+                </div>
+            </div>
+            <!-- Modal Login -->
+            <div class="loginmodal">
+                <div class="close-btn2">x</div>
+                <div class="form2">
+                    <form class="formlogin">
+                        <input class="signupinput" id="loginmail" type="text" placeholder="  Enter mail">
+                        <input class="signupinput" id="loginpassword" type="password" placeholder="  Enter Password">
+                    </form>
+                    <div class="loginbtn">Login</div>
+                    <p class="suc">Succes</p>
+                    <p class="err">Error</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
